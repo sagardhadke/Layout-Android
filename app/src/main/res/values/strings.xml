@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Android Layout</string>
+    <string name="title_activity_login_goride">Login_Goride</string>
+    <string name="welcome_image">Welcome Image</string>
+    <string name="logo">Logo</string>
+    <string name="welcome_to_ride">Welcome to Ride</string>
+    <string name="continue_with_phone_number">Continue with Phone Number</string>
 </resources>

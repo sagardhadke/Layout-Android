@@ -2,4 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    //Go RIde
+    <color name="go_ride_black">#0D1722</color>
 </resources>

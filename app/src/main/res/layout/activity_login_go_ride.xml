@@ -7,26 +7,26 @@
     tools:context=".Constraintlayout.Login_GoRide">
 
     <ImageView
-        android:id="@+id/welcome"
+        android:id="@+id/welcome_goride"
         android:layout_width="0dp"
         android:layout_height="370dp"
-        android:scaleType="center"
         android:adjustViewBounds="true"
+        android:contentDescription="@string/welcome_image"
+        android:scaleType="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/welcome_goride"
-        android:contentDescription="@string/welcome_image" />
+        app:srcCompat="@drawable/welcome_goride" />
 
     <ImageView
-        android:id="@+id/logo"
+        android:id="@+id/logo_goride"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="32dp"
+        android:src="@drawable/logo"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:src="@drawable/Logo_goride"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/welcome_to_ride"
@@ -39,18 +39,84 @@
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/welcome" />
+        app:layout_constraintTop_toBottomOf="@+id/welcome_goride" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/continue_Btn_goride"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
         android:background="@drawable/btn_bg"
         android:text="@string/continue_with_phone_number"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/welcome_to_ride" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/google_btn_Goride"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/btn_bg"
+        android:drawableLeft="@drawable/google"
+        android:drawablePadding="15dp"
+        android:padding="20dp"
+        android:text="Google"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/facebook_btn_goride"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/continue_Btn_goride" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/facebook_btn_goride"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/btn_bg"
+        android:drawableLeft="@drawable/facebook"
+        android:drawablePadding="15dp"
+        android:padding="20dp"
+        android:text="Facebook"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/google_btn_Goride"
+        app:layout_constraintTop_toBottomOf="@+id/continue_Btn_goride" />
+
+    <TextView
+        android:id="@+id/accept_goride"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="By continue you agree that you have read and accept our"
+        android:textColor="#9EA2A7"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toTopOf="@+id/tearmandcon_goride"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/google_btn_Goride" />
+
+    <TextView
+        android:id="@+id/tearmandcon_goride"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="Term &amp; Conditions  and Privacy Policy"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

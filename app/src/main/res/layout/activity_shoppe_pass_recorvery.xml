@@ -38,7 +38,7 @@
         app:layout_constraintTop_toBottomOf="@+id/shoppe_pic" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/shoppe_forget_pass_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -49,7 +49,7 @@
         app:layout_constraintTop_toBottomOf="@+id/shoppe_forget_pass" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/shoppe_sms"
         android:layout_width="199dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
@@ -60,10 +60,10 @@
         android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintTop_toBottomOf="@+id/shoppe_forget_pass_text" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/shoppe_email"
         android:layout_width="199dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -73,10 +73,10 @@
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/shoppe_sms" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/shoppe_next"
         android:layout_width="match_parent"
         android:layout_height="61dp"
         android:layout_marginStart="24dp"
@@ -89,17 +89,17 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        app:layout_constraintTop_toBottomOf="@+id/shoppe_email" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/shoppe_cancel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Cancel"
         android:textSize="18sp"
         android:textColor="#202020"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/button4"
-        app:layout_constraintStart_toStartOf="@+id/button4"
-        app:layout_constraintTop_toBottomOf="@+id/button4" />
+        app:layout_constraintEnd_toEndOf="@+id/shoppe_next"
+        app:layout_constraintStart_toStartOf="@+id/shoppe_next"
+        app:layout_constraintTop_toBottomOf="@+id/shoppe_next" />
 </androidx.constraintlayout.widget.ConstraintLayout>

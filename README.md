@@ -3,4 +3,9 @@
         height="130">
 </p>
 
-<h1 align="center">Layout-Android: A one-stop repository for mastering Android layouts, covering ConstraintLayout, LinearLayout, RelativeLayout, TabLayout, FrameLayout, and more. Elevate your UI design skills with detailed examples and best practices</h1>
+<h1 align="center">Layout-Android: Comprehensive Android Layouts Repository</h1>
+
+<p align="center">  
+🚀 Layout-Android: A one-stop repository for mastering Android layouts, covering ConstraintLayout, LinearLayout, RelativeLayout, TabLayout, FrameLayout, and more. Elevate your UI design skills with detailed examples and best practices.
+</p>
+</br>

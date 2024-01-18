@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LinearLayout.GroceryUs_signup">
+
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/groceryus_logo"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="55dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Your Grocery Store"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Full Name*"
+        android:textSize="13sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Sagar Dhadke"
+        android:padding="15dp"
+        android:background="@drawable/edit_bg"
+        android:layout_margin="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number*"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="13sp"
+        android:layout_marginStart="25dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_margin="20dp"
+        android:background="@drawable/edit_bg"
+        android:hint="+91 9876543210"
+        android:maxLength="10"
+        android:padding="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginStart="25dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/edit_bg"
+        android:hint="********"
+        android:inputType="textPassword"
+        android:padding="15dp" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I Agree with Terms &amp; Conditions"
+        android:layout_marginStart="20dp"
+        android:buttonTint="#45BC1B"
+        android:layout_marginEnd="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#45BC1B"
+        android:layout_margin="15dp"
+        android:text="Register Now"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="150dp"
+            android:layout_height="2dp"
+            android:background="#483838"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Or"
+            android:layout_marginLeft="10dp"/>
+
+        <View
+            android:layout_width="150dp"
+            android:layout_height="2dp"
+            android:layout_marginLeft="10dp"
+            android:background="#483838"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="74dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="55dp"
+            android:background="#E8F1FF"
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="20dp"
+                android:src="@drawable/groceryus_google"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="74dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="35dp"
+            android:background="#E8F1FF"
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="20dp"
+                android:src="@drawable/groceryus_facebook"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="74dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="35dp"
+            android:background="#E8F1FF"
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="20dp"
+                android:src="@drawable/groceryus_apple"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+    
+</LinearLayout>

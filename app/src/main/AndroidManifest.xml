@@ -13,6 +13,9 @@
         android:theme="@style/Theme.AndroidLayout"
         tools:targetApi="31">
         <activity
+            android:name=".LinearLayout.Instagram"
+            android:exported="false" />
+        <activity
             android:name=".LinearLayout.GroceryUs_signup"
             android:exported="false" />
         <activity

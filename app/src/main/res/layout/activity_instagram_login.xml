@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/insta_bg"
+    tools:context=".RelativeLayout.Instagram_login">
+
+    <TextView
+        android:id="@+id/instagram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/architects_daughter"
+        android:text="Instgram"
+        android:textColor="@color/white"
+        android:layout_marginTop="35dp"
+        android:textStyle="bold"
+        android:textSize="42sp" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="sagardhadke_uc"
+        android:padding="15dp"
+        android:background="@drawable/edit_bg"
+        android:layout_margin="15dp"
+        android:layout_below="@id/instagram"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="*********"
+        android:padding="15dp"
+        android:background="@drawable/edit_bg"
+        android:layout_margin="15dp"
+        android:layout_below="@id/username"/>
+
+    <TextView
+        android:id="@+id/forgot_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgotten Password?"
+        android:layout_below="@id/password"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log in"
+        android:backgroundTint="#0199FF"
+        android:layout_margin="20dp"
+        android:layout_below="@id/forgot_password"/>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="170dp"
+        android:layout_height="1dp"
+        android:background="@color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/login"/>
+
+    <TextView
+        android:id="@+id/or"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:textColor="@color/white"
+        android:layout_below="@id/login"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/view1"/>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="170dp"
+        android:layout_height="1dp"
+        android:background="@color/white"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/login"
+        android:layout_toRightOf="@id/or"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view2"
+        android:text="Log in with Facebook"
+        android:textColor="@color/white"
+        android:drawableLeft="@drawable/facebook"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/instagram_signup"
+        android:textColor="#C1B5B6"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@id/signup"
+        android:background="#C1C0C0"/>
+
+</RelativeLayout>

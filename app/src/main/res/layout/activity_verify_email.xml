@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212529"
+    tools:context=".RelativeLayout.Verify_Email">
+
+    <TextView
+        android:id="@+id/verifyEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verify Email"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"/>
+
+    <TextView
+        android:id="@+id/verifyEmailText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/manrope_semibold"
+        android:text="Enter the 6 Digit code sent to \n your email address."
+        android:textColor="#B2B3B4"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/verifyEmail"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:id="@+id/verifyEmailImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/verify_email"
+        android:layout_below="@id/verifyEmailText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:id="@+id/enterCodeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Code"
+        android:textSize="16sp"
+        android:fontFamily="@font/manrope_semibold"
+        android:textColor="@color/white"
+        android:layout_below="@id/verifyEmailImage"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"/>
+
+    <EditText
+        android:id="@+id/enterCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/enterCodeText"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="#272B2F"
+        android:fontFamily="@font/manrope_semibold"
+        android:hint="6FLPQP"
+        android:inputType="text|number"
+        android:maxEms="6"
+        android:padding="15dp"
+        android:textColorHint="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/resendCodeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resend Code in 2:49 sec."
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:fontFamily="@font/manrope_semibold"
+        android:layout_below="@id/enterCode"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:id="@+id/reSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resend"
+        android:textColor="#78AAF4"
+        android:textSize="16sp"
+        android:layout_toRightOf="@id/resendCodeText"
+        android:layout_alignBaseline="@id/resendCodeText"
+        android:layout_marginLeft="5dp"
+        android:fontFamily="@font/manrope_semibold"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/reSend"
+        android:layout_margin="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#90D272"
+        android:textColor="@color/white"
+        android:fontFamily="@font/manrope_extrabold"
+        android:text="Done"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Our Terms of Use &amp; Privacy Policy."
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:layout_centerInParent="true"
+        android:textColor="#B2B3B4"/>
+
+</RelativeLayout>

@@ -13,6 +13,9 @@
         android:theme="@style/Theme.AndroidLayout"
         tools:targetApi="31">
         <activity
+            android:name=".RelativeLayout.Verify_Email"
+            android:exported="false" />
+        <activity
             android:name=".LinearLayout.Shoppe_Profile_Settings"
             android:exported="false" />
         <activity
@@ -51,6 +54,10 @@
         <activity
             android:name=".MainActivity"
             android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

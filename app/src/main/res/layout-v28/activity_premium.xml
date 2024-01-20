@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeLayout.Premium"
+    android:background="#212529">
+
+    <TextView
+        android:id="@+id/premium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Premium"
+        android:textSize="26sp"
+        android:textColor="#E2E2E4"
+        android:layout_marginTop="15dp"
+        android:drawableEnd="@drawable/small_diamond"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/manrope_extrabold"/>
+
+    <TextView
+        android:id="@+id/premium_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get the best services with a \n Premium Membership."
+        android:textColor="#B2B3B4"
+        android:textSize="16sp"
+        android:fontFamily="@font/manrope_semibold"
+        android:gravity="center"
+        android:layout_below="@id/premium"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp"/>
+
+        <ImageView
+            android:id="@+id/box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="35dp"
+            android:layout_below="@id/premium_text"
+            android:src="@drawable/box" />
+
+    <TextView
+        android:id="@+id/free_shipping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/box"
+        android:layout_below="@id/premium_text"
+        android:layout_marginTop="45dp"
+        android:text="@string/pre_1"
+        android:gravity="center"
+        android:textFontWeight="12"
+        android:textColor="#B2B3B4"
+        android:fontFamily="@font/manrope_semibold"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#3E4246"
+        android:layout_below="@id/box"/>
+
+</RelativeLayout>

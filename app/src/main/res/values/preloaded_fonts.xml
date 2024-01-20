@@ -3,5 +3,7 @@
     <array name="preloaded_fonts" translatable="false">
         <item>@font/manrope_extrabold</item>
         <item>@font/manrope_semibold</item>
+        <item>@font/noto_sans</item>
+        <item>@font/noto_sans_bold</item>
     </array>
 </resources>

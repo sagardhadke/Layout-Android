@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212529"
+    tools:context=".RelativeLayout.Join_Premium">
+
+    <TextView
+        android:id="@+id/joinPremium_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Join Premium"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/manrope_extrabold"/>
+
+    <ImageView
+        android:id="@+id/joinPremium_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/diamond"
+        android:layout_below="@id/joinPremium_txt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/Premium_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="One simple membership,\n many benefits. Join now."
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="#B2B3B4"
+        android:layout_below="@id/joinPremium_img"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+    <RadioButton
+        android:id="@+id/premium_Radio1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Premium_txt"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="@string/plan_1"
+
+        android:textColor="#B2B3B4"
+        android:textSize="18sp" />
+
+    <RadioButton
+        android:id="@+id/premium_Radio2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/premium_Radio1"
+       android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="@string/plan_2"
+        android:textColor="#B2B3B4"
+        android:textSize="18sp" />
+
+
+    <RadioButton
+        android:id="@+id/premium_Radio3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/plan_3"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_below="@id/premium_Radio2"
+        android:layout_margin="10dp"
+        android:textColor="#B2B3B4"/>
+
+
+    <Button
+        android:id="@+id/joinPremium_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Join"
+        android:textColor="@color/white"
+        android:backgroundTint="#90D272"
+        android:fontFamily="@font/manrope_extrabold"
+        android:textSize="16sp"
+        android:layout_below="@id/premium_Radio3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Learn More."
+        android:textColor="#78AAF4"
+        android:textSize="16sp"
+        android:layout_below="@id/joinPremium_btn"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/manrope_semibold"/>
+
+</RelativeLayout>

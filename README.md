@@ -52,3 +52,8 @@ Give a ⭐️ if this project helped you!
 ## 🌐 Website
 
 Visit my website [here](https://sagardhadke.github.io/).
+
+
+## 📊 Repository Views
+
+![Views](https://profile-counter.glitch.me/Layout-Android/count.svg)

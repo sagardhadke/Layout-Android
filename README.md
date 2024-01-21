@@ -30,6 +30,14 @@ Clone This Repo Using Git
 
 If you have any feedback, please reach out to us at peaceunique2003@gmail.com
 
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check [issues page](https://github.com/sagardhadke/Kotlin-Android/issues).
+
+## ⭐ Show your support
+
+Give a ⭐️ if this project helped you!
+
 ## 🔗 Contact - Let's become friend
 [![instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/sagardhadke_uc/)
 

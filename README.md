@@ -31,10 +31,6 @@
 
 ![RelativeLayout Ui Desgin](https://github.com/sagardhadke/Layout-Android/assets/70995022/95e37651-05ed-44d1-9dea-f45b6857ffff)
 
-## GridLayout
-
-![GridLayout Ui Desgin](https://github.com/sagardhadke/Layout-Android/assets/70995022/bf01f66d-b67e-4771-875f-4e305292a157)
-
 Clone This Repo Using Git 
 
 ```bash

@@ -23,6 +23,10 @@
 
 ![Constraintlayout Ui Desgin](https://github.com/sagardhadke/Layout-Android/assets/70995022/c295a03d-31c1-42fc-b94c-6612b2d89dbe)
 
+## LinearLayout
+
+![LinearLayout Ui Desgin](https://github.com/sagardhadke/Layout-Android/assets/70995022/3f044a92-54a0-40a5-a58d-099f52013cc7)
+
 
 Clone This Repo Using Git 
 

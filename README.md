@@ -49,11 +49,6 @@ Give a ⭐️ if this project helped you!
 
 <a href="https://www.buymeacoffee.com/sagardhadke" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
-## 🌐 Website
-
-Visit my website [here](https://sagardhadke.github.io/).
-
-
 ## 📊 Repository Views
 
 ![Views](https://profile-counter.glitch.me/Layout-Android/count.svg)

@@ -32,7 +32,7 @@ If you have any feedback, please reach out to us at peaceunique2003@gmail.com
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check [issues page](https://github.com/sagardhadke/Kotlin-Android/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check [issues page](https://github.com/sagardhadke/Layout-Android/issues).
 
 ## ⭐ Show your support
 

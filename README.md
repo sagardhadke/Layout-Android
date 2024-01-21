@@ -9,3 +9,12 @@
 🚀 Layout-Android: A one-stop repository for mastering Android layouts, covering ConstraintLayout, LinearLayout, RelativeLayout, TabLayout, FrameLayout, and more. Elevate your UI design skills with detailed examples and best practices.
 </p>
 </br>
+
+## Layouts
+
+- ConstraintLayout
+- LinearLayout
+- RelativeLayout
+- TabLayout
+- FrameLayout
+- GridLayout

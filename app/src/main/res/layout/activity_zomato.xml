@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    tools:context=".GridLayout.Zomato">
+
+    <ImageView
+        android:id="@+id/zomato_1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:layout_margin="5dp"
+        android:src="@drawable/zomato_1"
+        android:layout_columnWeight="1"/>
+
+    <ImageView
+        android:id="@+id/zomato_2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:layout_margin="5dp"
+        android:src="@drawable/zomato_2"
+        android:layout_columnWeight="1"/>
+
+    <ImageView
+        android:id="@+id/zomato_3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:layout_margin="5dp"
+        android:src="@drawable/zomato_3"
+        android:layout_columnWeight="1"/>
+
+    <ImageView
+        android:id="@+id/zomato_4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:layout_margin="5dp"
+        android:src="@drawable/zomato_4"
+        android:layout_columnWeight="1"/>
+
+    <ImageView
+        android:id="@+id/zomato_5"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:layout_margin="5dp"
+        android:src="@drawable/zomato_5"
+        android:layout_columnWeight="1"/>
+
+    <ImageView
+        android:id="@+id/zomato_6"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:layout_margin="5dp"
+        android:src="@drawable/zomato_6"
+        android:layout_columnWeight="1"/>
+
+    <ImageView
+        android:id="@+id/zomato_7"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:layout_margin="5dp"
+        android:src="@drawable/zomato_7"
+        android:layout_columnWeight="1"/>
+
+    <ImageView
+        android:id="@+id/zomato_8"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:layout_margin="5dp"
+        android:src="@drawable/zomato_8"
+        android:layout_columnWeight="1"/>
+
+    <ImageView
+        android:id="@+id/zomato_9"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:layout_margin="5dp"
+        android:src="@drawable/zomato_9"
+        android:layout_columnWeight="1"/>
+
+
+
+</GridLayout>

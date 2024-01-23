@@ -36,10 +36,10 @@
 ![GridLayout Ui Desgin](https://github.com/sagardhadke/Layout-Android/assets/70995022/331dd2a9-345b-43c2-a329-835f3d4b8087)
 
 
-Clone This Repo Using Git 
+Clone This Repository Using Git 
 
 ```bash
- https://github.com/sagardhadke/Layout-Android.git
+https://github.com/sagardhadke/Layout-Android.git
 ```
 
 ## Feedback
@@ -54,7 +54,7 @@ Contributions, issues, and feature requests are welcome! Feel free to check [iss
 
 Give a ⭐️ if this project helped you!
 
-## 🔗 Contact - Let's become friend
+## 🔗 Contact - Let's become a friend
 [![instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/sagardhadke_uc/)
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sagar-dhadke-6a466b206/)

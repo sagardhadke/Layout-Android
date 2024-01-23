@@ -39,7 +39,7 @@
 Clone This Repo Using Git 
 
 ```bash
-     https://github.com/sagardhadke/Layout-Android.git
+ https://github.com/sagardhadke/Layout-Android.git
 ```
 
 ## Feedback
